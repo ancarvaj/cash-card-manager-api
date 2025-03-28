@@ -45,8 +45,9 @@ http://localhost:8080/swagger-ui.html
 ```
 ## CI/CD
 
-### Pipeline Jenkins configurado con:
-
-- Build automatizado
-- Análisis con SonarQube
-- Despliegue en Docker Hub
+## CI/CD Pipeline
+Flujo automatizado con Jenkins:
+- Build y pruebas unitarias
+- Análisis estático con SonarQube
+- Build de imagen Docker
+- Push a Docker Hub (versiones tagged)
